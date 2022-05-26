@@ -1,6 +1,11 @@
 #pragma once
 
 
+// This model class represents a reading from a weather sensor. It holds the 
+// weather sensor's barometric pressure reading, temperature in Farenheight
+// reading and the timestamp of the reading. The timestamp is a string that has
+// been created to represent the sensor's reading timestamp in the UI's local
+// time zone.
 class CWeatherSensorData
 {
 public:
