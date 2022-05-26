@@ -5,6 +5,11 @@
 
 typedef void LoadDataCompleteCallback(DWORD_PTR appContext);
 
+// This repository holds an array of weather sensor readings. The readings
+// are fetched from a REST endpoint by the repository's LoadData method.
+// The LoadData method, when called will clear the current readings in the
+// repository and fetch a new set of readings from the REST endpoint. The
+// REST data fetching is done using async WinInet (old school!)
 class SensorRepository
 {
 public:

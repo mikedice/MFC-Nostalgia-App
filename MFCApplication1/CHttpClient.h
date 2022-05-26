@@ -3,6 +3,10 @@
 
 typedef void AppCallback(BYTE* responseContent, DWORD_PTR appContext);
 
+// This class encapsulates the funcitonality of an HTTP client used to fetch
+// data from a REST endpoint. The HTTP operations are async using WinInet.
+// The complete HTTP response is returned to the client in their AppCallback 
+// as a null terminated string
 class CHttpClient
 {
 public:

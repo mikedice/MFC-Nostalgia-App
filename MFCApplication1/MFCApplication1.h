@@ -10,10 +10,7 @@
 #include "resource.h"       // main symbols
 #include "SensorRepository.h"
 
-// CMFCApplication1App:
-// See MFCApplication1.cpp for the implementation of this class
-//
-
+// This class controls the running of the application
 class CMFCApplication1App : public CWinApp
 {
 public:

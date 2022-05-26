@@ -9,6 +9,8 @@
 // CChildView window
 #include "CWeatherSensorData.h"
 
+// This class repsrents the applications view window inside the frame.
+// The view displays the sensor data from the SensorRepository
 class CInfoView : public CWnd
 {
 // Construction

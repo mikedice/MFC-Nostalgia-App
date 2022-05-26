@@ -6,6 +6,7 @@
 #include "CInfoView.h"
 #define DATA_LOAD_COMPLETE 6666
 
+// This class reprsents the application's frame window
 class CMainFrame : public CFrameWnd
 {
 	
