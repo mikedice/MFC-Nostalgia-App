@@ -2,7 +2,7 @@
 #include "SensorRepository.h"
 #include <afxinet.h>
 #include "CHttpClient.h"
-#include "nlohmann/include/single_include/nlohmann/json.hpp"
+#include "nlohmann/include/json.hpp" // See: JSON for Modern C++ https://github.com/nlohmann/json
 using json = nlohmann::json;
 
 SensorRepository::SensorRepository()
